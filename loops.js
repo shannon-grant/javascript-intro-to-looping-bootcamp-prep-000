@@ -17,3 +17,12 @@ function whileLoop(num) {
     }
     return "done";
   }
+
+function forWhileLoop(num) {
+  let i = 0;
+
+  function incrementVariable() {
+    i = i + 1;
+    return i;
+  }
+}
