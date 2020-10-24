@@ -18,12 +18,12 @@ function whileLoop(num) {
     return "done";
   }
 
-function doWhileLoop(num) {
-  let num = 0;
+function doWhileLoop(n) {
+  let n = 0;
 
   function incrementVariable() {
-    num = num + 1;
-    return num;
+    n = n + 1;
+    return n;
   }
 
   do {
